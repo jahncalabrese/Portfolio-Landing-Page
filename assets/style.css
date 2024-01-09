@@ -5,8 +5,7 @@
     box-sizing: border-box;
     --dark:#33393f;
     --light:rgb(224, 234, 228);
-    --yellow: rgb(255, 255, 195)
-;
+    --yellow: rgb(255, 255, 195);
   }
   
   /* Basic styling */
@@ -79,7 +78,7 @@
   }
   
   section {
-    border: 2px solid #333;
+    border: 2px solid var(--dark);
     padding: 20px;
     border-radius: 8px;
     display: flex; /* Make sections flex containers */
@@ -140,10 +139,6 @@
     align-items: center;
     align-content: space-evenly;
   }
-  /* div #icon{
-    display: inline-flex;
-    align-content: space-between;
-  } */
   #icon a {
     color: var(--dark);
     text-decoration: none;
