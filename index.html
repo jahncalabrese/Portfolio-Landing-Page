@@ -2,11 +2,15 @@
 <head>
   <title>Developer Portfolio</title>
   <link rel="stylesheet" href="./assets/style.css">
+  <!-- link for fonts -->
+  <link href='https://fonts.googleapis.com/css?family=GFS Didot' rel='stylesheet'>
+  <!-- link for social link logos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <header>
-    <nav>
     <h1>John Calabrese</h1>
+    <nav>
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#work">Work</a></li>
@@ -16,20 +20,38 @@
   </header>
 
   <main>
-    <section id="about">
+    <section class="about">
       <h2>About Me</h2>
+        <img src="./assets/06570002.JPG" alt="Self Portrait: John Calabrese">
+        <h6>
+          Dedicated professional passionate about [relevant field/industry]. Skilled in [key skills/areas] with a background in [mention relevant experience/education]. Committed to innovation and collaborative success. I thrive in dynamic environments, embrace learning, and seek to make impactful contributions. Open to networking and exploring new opportunities.
+        </h6>
       <!-- Developer's name, photo, description -->
     </section>
 
-    <section id="work">
+    <section class="work">
       <h2>Developer's Work</h2>
-      <!-- Images of applications, each wrapped in a link -->
+        <div>
+          <img id = graphicDesign src="./assets/manichino.vol1.cover (JPEG SAMPLE).jpg" alt="Graphic Work: Manichino">
+          <img id = landingPage src="./assets/manichino.vol1.cover (JPEG SAMPLE).jpg" alt="Graphic Work: Manichino">
+          <img id = otherProjects src="./assets/manichino.vol1.cover (JPEG SAMPLE).jpg" alt="Graphic Work: Manichino">
+        </div>
     </section>
 
-    <section id="contact">
-      <h2>Contact Developer</h2>
-      <!-- Contact information -->
-    </section>
+    <section class="contact">
+      <h3>Contact Developer</h3>
+        <div id="icon">
+          <a href="https://www.linkedin.com/in/john-calabrese-732903137/" target="_blank">
+            <i class="fa fa-linkedin-square" style="font-size:36px"></i>
+          </a>
+          <a href="https://github.com/jahncalabrese" target="_blank">
+            <i class="fa fa-github" style="font-size:36px"></i>
+          </a>
+          <a href="https://www.instagram.com/https://www.instagram.com/jahncalabrese/" target="_blank">
+            <i class="fa fa-instagram" style="font: size 36px;"></i>
+          </a>
+        </div>
+        
   </main>
 </body>
 </html>
